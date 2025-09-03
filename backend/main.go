@@ -24,7 +24,7 @@ func initial() {
 		log.Fatal("zaba")
 	}
 	sqlmat := `CREATE TABLE TODO (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
   description TEXT
 );
